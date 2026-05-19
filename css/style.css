@@ -352,6 +352,30 @@ ul { list-style: none; }
 
 /* --- Expertise Section --- */
 .expertise { padding: 160px 0; position: relative; overflow: hidden; }
+
+.expertise-parallax-bg {
+    position: absolute; inset: -80px 0;
+    z-index: 0; overflow: hidden;
+    will-change: transform;
+}
+.expertise-parallax-bg img {
+    width: 100%; height: 130%;
+    object-fit: cover; object-position: center;
+    transform: translateY(0);
+    transition: none;
+}
+.expertise-bg-overlay {
+    position: absolute; inset: 0; z-index: 1;
+    background: linear-gradient(
+        to bottom,
+        var(--bg) 0%,
+        rgba(6,6,8,0.88) 15%,
+        rgba(6,6,8,0.82) 50%,
+        rgba(6,6,8,0.88) 85%,
+        var(--bg) 100%
+    );
+}
+.expertise .section-container { position: relative; z-index: 2; }
 .expertise-header { margin-bottom: 80px; }
 .expertise-title {
     font-family: var(--font-primary); font-size: clamp(40px, 6vw, 90px);

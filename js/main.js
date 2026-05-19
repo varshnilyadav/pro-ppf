@@ -208,14 +208,29 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 5000);
     });
 
-    // --- Parallax on Hero Orbs ---
+    // --- Parallax on Hero Orbs & Expertise BG ---
     if (window.innerWidth > 768) {
+        const expertiseBg = document.querySelector('.expertise-parallax-bg img');
+        const expertiseSection = document.getElementById('expertise');
+
         window.addEventListener('scroll', () => {
             const scrollY = window.scrollY;
             const orb1 = document.querySelector('.hero-orb-1');
             const orb2 = document.querySelector('.hero-orb-2');
             if (orb1) orb1.style.transform = `translateY(${scrollY * 0.15}px)`;
             if (orb2) orb2.style.transform = `translateY(${scrollY * 0.08}px)`;
+
+            // Expertise parallax
+            if (expertiseBg && expertiseSection) {
+                const rect = expertiseSection.getBoundingClientRect();
+                const sectionTop = rect.top;
+                const windowH = window.innerHeight;
+                if (sectionTop < windowH && rect.bottom > 0) {
+                    const progress = (windowH - sectionTop) / (windowH + rect.height);
+                    const offset = (progress - 0.5) * 120;
+                    expertiseBg.style.transform = `translateY(${offset}px)`;
+                }
+            }
         });
     }
 

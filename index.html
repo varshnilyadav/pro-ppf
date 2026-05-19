@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO PPF TEAM — Elite Paint Protection Film</title>
+    <meta name="description" content="PRO PPF TEAM delivers ultra-premium Paint Protection Film installations with surgical precision. Protect your investment with invisible, self-healing armor.">
+    <meta name="keywords" content="PPF, Paint Protection Film, car protection, self-healing film, PRO PPF TEAM">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-line"></div>
+            <div class="preloader-text">
+                <span>P</span><span>R</span><span>O</span>
+                <span class="preloader-spacer"></span>
+                <span>P</span><span>P</span><span>F</span>
+                <span class="preloader-spacer"></span>
+                <span>T</span><span>E</span><span>A</span><span>M</span>
+            </div>
+            <div class="preloader-sub">Loading Experience</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="mainNav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <span class="logo-pro">PRO</span>
+                <span class="logo-divider"></span>
+                <span class="logo-ppf">PPF TEAM</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#expertise" class="nav-link" data-text="Expertise">Expertise</a>
+                <a href="#advantage" class="nav-link" data-text="Advantage">Advantage</a>
+                <a href="#showcase" class="nav-link" data-text="Showcase">Showcase</a>
+                <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
+            </div>
+            <a href="#contact" class="nav-cta magnetic-btn" id="navCta">
+                <span>Book Now</span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M1 13L13 1M13 1H1M13 1V13" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-inner">
+            <a href="#expertise" class="mobile-link">Expertise</a>
+            <a href="#advantage" class="mobile-link">Advantage</a>
+            <a href="#showcase" class="mobile-link">Showcase</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <a href="#contact" class="mobile-cta">Book Consultation</a>
+        </div>
+    </div>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient-orb hero-orb-1"></div>
+            <div class="hero-gradient-orb hero-orb-2"></div>
+            <div class="hero-grain"></div>
+            <div class="hero-lines">
+                <div class="hero-line"></div>
+                <div class="hero-line"></div>
+                <div class="hero-line"></div>
+                <div class="hero-line"></div>
+                <div class="hero-line"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge reveal-up">
+                <span class="badge-dot"></span>
+                <span>Elite Paint Protection Film Studio</span>
+            </div>
+
+            <h1 class="hero-title">
+                <div class="title-line reveal-up" style="--delay: 0.1s">
+                    <span class="title-word">INVISIBLE</span>
+                </div>
+                <div class="title-line reveal-up" style="--delay: 0.2s">
+                    <span class="title-word title-outline">ARMOR</span>
+                    <span class="title-word title-accent">FOR</span>
+                </div>
+                <div class="title-line reveal-up" style="--delay: 0.3s">
+                    <span class="title-word">YOUR</span>
+                    <span class="title-word title-stroke">LEGACY</span>
+                </div>
+            </h1>
+
+            <div class="hero-bottom">
+                <p class="hero-sub reveal-up" style="--delay: 0.4s">
+                    Surgical-precision Paint Protection Film installations<br>
+                    that safeguard your vehicle's flawless finish — invisibly.
+                </p>
+                <a href="#contact" class="hero-cta magnetic-btn reveal-up" style="--delay: 0.5s" id="heroCta">
+                    <span class="cta-text">Protect Your Investment</span>
+                    <span class="cta-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 16L16 4M16 4H4M16 4V16" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </span>
+                    <span class="cta-bg"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+
+        <div class="hero-stats reveal-up" style="--delay: 0.6s">
+            <div class="stat">
+                <span class="stat-number" data-count="500">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">Vehicles Protected</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-number" data-count="8">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">Years of Mastery</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-number" data-count="100">0</span><span class="stat-percent">%</span>
+                <span class="stat-label">Satisfaction Rate</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EXPERTISE SECTION ===================== -->
+    <section class="expertise" id="expertise">
+        <div class="section-container">
+
+            <div class="expertise-header">
+                <div class="section-tag reveal-up">
+                    <span class="tag-line"></span>
+                    <span>01 — The Craft</span>
+                </div>
+                <h2 class="expertise-title reveal-up" style="--delay: 0.1s">
+                    <span>Precision</span>
+                    <span class="title-italic">Beyond</span>
+                    <span>Measure</span>
+                </h2>
+            </div>
+
+            <div class="expertise-grid">
+                <div class="expertise-visual reveal-up" style="--delay: 0.2s">
+                    <div class="expertise-img-wrapper">
+                        <div class="expertise-img" id="expertiseImg" style="background-image: url('images/ppf_application.png'); background-size: cover; background-position: center;">
+                            <div class="img-overlay"></div>
+                            <div class="img-frame"></div>
+                        </div>
+                        <div class="expertise-stamp">
+                            <svg viewBox="0 0 100 100" class="stamp-svg">
+                                <defs>
+                                    <path id="stampCircle" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"/>
+                                </defs>
+                                <text>
+                                    <textPath href="#stampCircle">PRECISION CRAFTED • PPF EXCELLENCE • </textPath>
+                                </text>
+                            </svg>
+                            <span class="stamp-icon">⬡</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expertise-content">
+                    <div class="expertise-quote reveal-up" style="--delay: 0.3s">
+                        <div class="quote-mark">"</div>
+                        <p class="quote-text">
+                            We have skilled technicians who are trained in proper techniques of applying PPF without bubbles, wrinkles or other imperfections.
+                        </p>
+                        <div class="quote-author">
+                            <div class="author-line"></div>
+                            <span>PRO PPF TEAM — Quality Promise</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise-details">
+                        <div class="detail-item reveal-up" style="--delay: 0.4s">
+                            <span class="detail-num">01</span>
+                            <div class="detail-content">
+                                <h4>Computer-Cut Precision</h4>
+                                <p>Every panel is pre-cut using advanced software to ensure millimeter-perfect coverage with zero guesswork.</p>
+                            </div>
+                        </div>
+                        <div class="detail-item reveal-up" style="--delay: 0.5s">
+                            <span class="detail-num">02</span>
+                            <div class="detail-content">
+                                <h4>Controlled Environment</h4>
+                                <p>Installations occur in a dust-free, climate-controlled bay to guarantee an invisible, contaminant-free bond.</p>
+                            </div>
+                        </div>
+                        <div class="detail-item reveal-up" style="--delay: 0.6s">
+                            <span class="detail-num">03</span>
+                            <div class="detail-content">
+                                <h4>Edge-to-Edge Coverage</h4>
+                                <p>We wrap edges where others cut short, ensuring complete protection and a seamless factory finish look.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PPF ADVANTAGE SECTION ===================== -->
+    <section class="advantage" id="advantage">
+        <div class="advantage-bg">
+            <div class="advantage-gradient"></div>
+        </div>
+
+        <div class="section-container">
+            <div class="advantage-header">
+                <div class="section-tag reveal-up">
+                    <span class="tag-line"></span>
+                    <span>02 — The Technology</span>
+                </div>
+                <h2 class="advantage-title reveal-up" style="--delay: 0.1s">
+                    The PPF<br><span class="title-italic">Advantage</span>
+                </h2>
+                <p class="advantage-sub reveal-up" style="--delay: 0.2s">
+                    Next-generation thermoplastic urethane engineered to be<br>
+                    the last line of defense your paint ever needs.
+                </p>
+            </div>
+
+            <div class="advantage-cards">
+                <div class="advantage-card reveal-up" style="--delay: 0.2s" data-card="heal">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="32" cy="32" r="28"/>
+                            <path d="M32 18v28M18 32h28"/>
+                            <path d="M22 22l20 20M42 22L22 42" opacity="0.3"/>
+                            <circle cx="32" cy="32" r="12" stroke-dasharray="4 4"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Self-Healing</h3>
+                    <p class="card-desc">Minor scratches and swirl marks vanish with heat exposure, keeping your finish perpetually pristine.</p>
+                    <div class="card-reveal">
+                        <div class="card-reveal-inner">
+                            <span class="card-reveal-tag">Technology</span>
+                            <p>Advanced thermoplastic urethane polymers realign at the molecular level when exposed to heat — from sunlight or warm water — erasing light scratches within minutes. Your vehicle's paint maintains its showroom luster indefinitely.</p>
+                        </div>
+                    </div>
+                    <div class="card-number">01</div>
+                </div>
+
+                <div class="advantage-card reveal-up" style="--delay: 0.3s" data-card="finish">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M8 56l16-32 8 12 8-20 8 16 8-24"/>
+                            <circle cx="32" cy="12" r="4"/>
+                            <path d="M12 48h40" stroke-dasharray="4 4"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Flawless Finish</h3>
+                    <p class="card-desc">Ultra-clear, optically transparent film preserves the original color depth and gloss of your paint.</p>
+                    <div class="card-reveal">
+                        <div class="card-reveal-inner">
+                            <span class="card-reveal-tag">Clarity</span>
+                            <p>Our premium-grade PPF boasts 99.7% optical clarity with zero orange peel effect. The film is virtually invisible on the surface, maintaining your vehicle's factory paint aesthetics while adding an additional layer of deep, wet-look gloss.</p>
+                        </div>
+                    </div>
+                    <div class="card-number">02</div>
+                </div>
+
+                <div class="advantage-card reveal-up" style="--delay: 0.4s" data-card="impact">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M32 4L4 20v24l28 16 28-16V20L32 4z"/>
+                            <path d="M32 16L16 25v14l16 9 16-9V25L32 16z"/>
+                            <path d="M32 28l-8 5v6l8 5 8-5v-6l-8-5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Impact Resistance</h3>
+                    <p class="card-desc">200-micron thick film absorbs rock chips, road debris, and insect acids before they reach your paint.</p>
+                    <div class="card-reveal">
+                        <div class="card-reveal-inner">
+                            <span class="card-reveal-tag">Defense</span>
+                            <p>Multi-layered construction with an elastomeric polymer core disperses impact energy across the film surface, preventing stone chips, sand abrasion, and chemical contaminants from ever making contact with your vehicle's clear coat.</p>
+                        </div>
+                    </div>
+                    <div class="card-number">03</div>
+                </div>
+
+                <div class="advantage-card reveal-up" style="--delay: 0.5s" data-card="uv">
+                    <div class="card-glow"></div>
+                    <div class="card-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="32" cy="32" r="14"/>
+                            <path d="M32 6v8M32 50v8M6 32h8M50 32h8M14.3 14.3l5.7 5.7M44 44l5.7 5.7M49.7 14.3L44 20M20 44l-5.7 5.7"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">UV Protection</h3>
+                    <p class="card-desc">Blocks harmful UV radiation to prevent paint oxidation, fading, and yellowing over time.</p>
+                    <div class="card-reveal">
+                        <div class="card-reveal-inner">
+                            <span class="card-reveal-tag">Longevity</span>
+                            <p>Built-in UV inhibitors within the film's top coat filter out 99% of harmful ultraviolet radiation. This prevents the molecular breakdown of your vehicle's clear coat, keeping colors vibrant and preventing the chalky oxidation that plagues unprotected vehicles.</p>
+                        </div>
+                    </div>
+                    <div class="card-number">04</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SHOWCASE / GALLERY ===================== -->
+    <section class="showcase" id="showcase">
+        <div class="section-container">
+            <div class="showcase-header">
+                <div class="section-tag reveal-up">
+                    <span class="tag-line"></span>
+                    <span>03 — Portfolio</span>
+                </div>
+                <h2 class="showcase-title reveal-up" style="--delay: 0.1s">
+                    Flawless<br><span class="title-italic">Installations</span>
+                </h2>
+            </div>
+        </div>
+
+        <div class="showcase-slider" id="showcaseSlider">
+            <div class="showcase-track" id="showcaseTrack">
+                <div class="showcase-slide" data-slide="1">
+                    <div class="slide-img" style="background: url('images/porsche_ppf.png') center/cover;">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-content">
+                            <span class="slide-tag">Full Body PPF</span>
+                            <h3 class="slide-title">Porsche 911 GT3</h3>
+                            <p class="slide-desc">Complete coverage — hood, fenders, bumpers, rocker panels & A-pillars</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-slide" data-slide="2">
+                    <div class="slide-img" style="background: url('images/bmw_ppf.png') center/cover;">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-content">
+                            <span class="slide-tag">Track Package</span>
+                            <h3 class="slide-title">BMW M4 Competition</h3>
+                            <p class="slide-desc">High-impact zones with extended rocker panel & mirror cap protection</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-slide" data-slide="3">
+                    <div class="slide-img" style="background: url('images/mercedes_ppf.png') center/cover;">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-content">
+                            <span class="slide-tag">Stealth Matte PPF</span>
+                            <h3 class="slide-title">Mercedes-AMG GT</h3>
+                            <p class="slide-desc">Satin-finish film transforming gloss black to stealth matte perfection</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-slide" data-slide="4">
+                    <div class="slide-img" style="background: url('images/lamborghini_ppf.png') center/cover;">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-content">
+                            <span class="slide-tag">Front-End Shield</span>
+                            <h3 class="slide-title">Lamborghini Huracán</h3>
+                            <p class="slide-desc">Precision-wrapped front clip — hood, bumper, headlights & fender edges</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-slide" data-slide="5">
+                    <div class="slide-img" style="background: url('images/rollsroyce_ppf.png') center/cover;">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-content">
+                            <span class="slide-tag">Ultimate Coverage</span>
+                            <h3 class="slide-title">Rolls-Royce Ghost</h3>
+                            <p class="slide-desc">Full body coverage with door edges, luggage area & headlight protection</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="showcase-controls">
+                <button class="showcase-btn showcase-prev" id="showcasePrev" aria-label="Previous slide">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M19 12H5M5 12l7-7M5 12l7 7"/>
+                    </svg>
+                </button>
+                <div class="showcase-counter">
+                    <span id="currentSlide">01</span>
+                    <span class="counter-divider"></span>
+                    <span id="totalSlides">05</span>
+                </div>
+                <button class="showcase-btn showcase-next" id="showcaseNext" aria-label="Next slide">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M5 12h14M19 12l-7-7M19 12l-7 7"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="showcase-progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CTA SECTION ===================== -->
+    <section class="cta-section">
+        <div class="section-container">
+            <div class="cta-block reveal-up">
+                <h2 class="cta-title">
+                    Ready to Shield<br>
+                    <span class="title-italic">Your Masterpiece?</span>
+                </h2>
+                <p class="cta-sub">Every day without PPF is another day your paint faces the elements unprotected.</p>
+                <a href="#contact" class="cta-button magnetic-btn">
+                    <span>Schedule Your Installation</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 16L16 4M16 4H4M16 4V16" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer" id="contact">
+        <div class="section-container">
+            <div class="footer-top">
+                <div class="footer-brand reveal-up">
+                    <div class="footer-logo">
+                        <span class="logo-pro">PRO</span>
+                        <span class="logo-divider"></span>
+                        <span class="logo-ppf">PPF TEAM</span>
+                    </div>
+                    <p class="footer-tagline">Elite Paint Protection Film Studio</p>
+                </div>
+
+                <div class="footer-grid">
+                    <div class="footer-col reveal-up" style="--delay: 0.1s">
+                        <h4 class="footer-col-title">Contact</h4>
+                        <ul class="footer-list">
+                            <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+                            <li><a href="mailto:info@proppfteam.com">info@proppfteam.com</a></li>
+                            <li>Mon — Sat: 9:00 AM – 7:00 PM</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col reveal-up" style="--delay: 0.2s">
+                        <h4 class="footer-col-title">Services</h4>
+                        <ul class="footer-list">
+                            <li>Full Body PPF</li>
+                            <li>Front-End Shield</li>
+                            <li>Track Package</li>
+                            <li>Stealth Matte PPF</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col reveal-up" style="--delay: 0.3s">
+                        <h4 class="footer-col-title">Location</h4>
+                        <div class="footer-map" id="footerMap">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.72020923027!2d78.24323194999999!3d17.412608649999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                                width="100%" 
+                                height="200" 
+                                style="border:0; border-radius: 12px; filter: invert(90%) hue-rotate(180deg) brightness(0.8) contrast(1.2);" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="PRO PPF TEAM Location">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copy">&copy; 2026 PRO PPF TEAM. All rights reserved.</p>
+                <p class="footer-credit">DESIGNED BY <span class="credit-name">VARSHNIL</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

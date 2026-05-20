@@ -234,6 +234,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- Testimonials infinite scroll ---
+    const testimonialsTrack = document.getElementById('testimonialsTrack');
+    if (testimonialsTrack) {
+        const cards = testimonialsTrack.querySelectorAll('.testimonial-card');
+        cards.forEach(card => {
+            const clone = card.cloneNode(true);
+            clone.removeAttribute('id');
+            testimonialsTrack.appendChild(clone);
+        });
+    }
+
     // --- Keyboard navigation for slider ---
     document.addEventListener('keydown', (e) => {
         if (e.key === 'ArrowLeft') { prevBtn.click(); }
